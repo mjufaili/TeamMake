@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid Background -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="5dp" />
+            <stroke android:color="@color/rose_theme"/> <!-- rose color -->
+            <stroke android:width="3dp" /><!-- Border width -->
+            <stroke android:dashWidth="8dp" /><!-- Dash width -->
+            <stroke  android:dashGap="4dp" /><!-- Gap between dashes -->
+
+            <corners android:radius="5dp" />
+        </shape>
+
+
+
+
+    </item>
+
+
+</layer-list>
+

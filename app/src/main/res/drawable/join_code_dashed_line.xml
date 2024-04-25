@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    CITATION
+    Saahir adapted this file from this SO answer @ 25-Nov-2023
+    URL: https://stackoverflow.com/a/45274967
+
+    Constants and numbers here were arbitrarily chosen by trial and error such that the join code
+    edit-text probably only looks right on very specific devices, namely the pixel 3a
+    -->
+    <item
+        android:bottom="1dp"
+        android:left="-18dp"
+        android:right="-18dp"
+        android:top="-3dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/rose_theme"
+                android:dashGap="20dp"
+                android:dashWidth="35dp" />
+        </shape>
+    </item>
+</layer-list>

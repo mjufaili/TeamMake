@@ -1,0 +1,116 @@
+<resources>
+    <!-- IDs for the roles (used by the API) -->
+    <string-array name="role_ids">
+        <item>shaper</item>
+        <item>coordinator</item>
+        <item>plant</item>
+        <item>resource_investigator</item>
+        <item>monitor_evaluator</item>
+        <item>implementer</item>
+        <item>teamworker</item>
+        <item>completer_finisher</item>
+    </string-array>
+
+    <!-- Questions for each section -->
+    <string-array name="questions">
+        <item>When involved in a project with other people:</item>
+        <item>In seeking satisfaction through my work:</item>
+        <item>When the team is trying to solve a particularly complex problem:</item>
+        <item>In carrying out my day-to-day work:</item>
+        <item>If I am suddenly given a difficult task with limited time and unfamiliar people:</item>
+        <item>When suddenly asked to consider a new project:</item>
+        <item>In contributing to group projects in general:</item>
+    </string-array>
+
+    <!-- START ROLE ANSWERS -->
+    <string-array name="sh_answers">
+        <item>I react strongly when meetings look like losing track of the main objective.</item>
+        <item>I like to have a strong influence on decisions.</item>
+        <item>I am ready to make my personal views known in a forceful way if necessary.</item>
+        <item>I am not reluctant to emphasise my own point of view in meetings.</item>
+        <item>I feel it is sometimes worth incurring some temporary unpopularity if one is to succeed in getting one’s views across in a group.</item>
+        <item>I am happy to take the lead when action is required.</item>
+        <item>I try to make my mark in group meetings.</item>
+    </string-array>
+
+    <string-array name="co_answers">
+        <item>I have an aptitude for organising people.</item>
+        <item>I enjoy reconciling different points of view.</item>
+        <item>I can co-ordinate and use productively other people’s abilities and talents.</item>
+        <item>I can work with all sorts of people provided that they have got something worthwhile to contribute.</item>
+        <item>I can work with people who vary widely in their personal qualities and outlook.</item>
+        <item>I am able to assert myself to get other people involved if necessary</item>
+        <item>I see both sides of a problem and take a decision acceptable to all.</item>
+    </string-array>
+
+    <string-array name="pl_answers">
+        <item>I produce original suggestions</item>
+        <item>I tend to have a creative approach to problem solving.</item>
+        <item>I often produce a new approach to a long continuing problem.</item>
+        <item>I tend to see patterns where others would see items as unconnected.</item>
+        <item>I often find my imagination frustrated by working in a group.</item>
+        <item>I am able to take an independent and innovative look at most situations.</item>
+        <item>I can see how ideas and techniques can be used in new relationships.</item>
+    </string-array>
+
+    <string-array name="ri_answers">
+        <item>I am keen to find out the latest ideas and developments.</item>
+        <item>I particularly enjoy exploring different views and techniques.</item>
+        <item>I explore ideas that may have a wider application than in the immediate task.</item>
+        <item>I make a point of following up interesting ideas and/or people.</item>
+        <item>I usually know someone whose specialist knowledge is particularly apt.</item>
+        <item>I start to look around for possible ideas and openings.</item>
+        <item>A broad range of personal contacts is important to my style of working.</item>
+    </string-array>
+
+    <string-array name="me_answers">
+        <item>I analyse other people’s ideas objectively, for both merits and failings.</item>
+        <item>I like to make critical discrimination between alternatives.</item>
+        <item>I like to weigh up and evaluate a range of suggestions thoroughly before choosing.</item>
+        <item>I can usually find the argument to refute unsound propositions.</item>
+        <item>My feelings seldom interfere with my judgement.</item>
+        <item>I approach the problem in a carefully analytical way.</item>
+        <item>My considered judgement may take time but is usually near the mark.</item>
+    </string-array>
+
+    <string-array name="imp_answers">
+        <item>I can be relied upon to see that work that needs to be done is organised.</item>
+        <item>I am more interested in practicalities than new ideas.</item>
+        <item>I maintain a steady systematic approach, whatever the pressures.</item>
+        <item>I am keen to see there is nothing vague about my task and objectives.</item>
+        <item>I strive to build up an effective structure.</item>
+        <item>I find it hard to give in a job where the goals are not clearly defined.</item>
+        <item>I think I have a talent for sorting out the concrete steps that need to be taken given a broad brief.</item>
+    </string-array>
+
+    <string-array name="tw_answers">
+        <item>I am always ready to support good suggestions that help to resolve a problem.</item>
+        <item>I am concerned to help colleagues with their problems.</item>
+        <item>I am ready to help whenever I can.</item>
+        <item>I have a quiet interest in getting to know people better.</item>
+        <item>I find my personal skill particularly appropriate in achieving agreement.</item>
+        <item>I can respond positively to my colleagues and their initiatives.</item>
+        <item>I get on well with others and work hard for the team.</item>
+    </string-array>
+
+    <string-array name="cf_answers">
+        <item>I pick up slips and omissions that others fail to notice.</item>
+        <item>I feel in my element where work requires a high degree of attention and concentration.</item>
+        <item>I keep a watching eye on areas where difficulty may arise.</item>
+        <item>Being busy gives me real satisfaction.</item>
+        <item>I seem to develop a natural sense of urgency.</item>
+        <item>I am concerned to finish and perfect current work before I start.</item>
+        <item>I have an eye for getting the details right.</item>
+    </string-array>
+    <!-- END ROLE ANSWERS -->
+
+    <!-- Descriptions of roles -->
+    <string name="sh_description">You are a SHAPER!\n\nShapers are highly motivated people with a lot of nervous energy and a great need for achievement. Often they seem to be aggressive extroverts with strong drive. Shapers like to challenge, to lead and to push others into action - and to win. If obstacles arise, they will find a way round - but can be headstrong and emotional in response to any form of disappointment or frustration.</string>
+    <string name="co_description">You are a CO-ORDINATOR!\n\nThe distinguishing feature of Co-ordinators is their ability to cause others to work to shared goals. Mature, trusting and confident, they delegate readily. In interpersonal relations they are quick to necessarily the cleverest members of a team, they have a broad and worldly outlook and generally command respect</string>
+    <string name="pl_description">You are a PLANT!\n\nPlants are innovators and inventors and can be highly creative. They provide the seeds and ideas from which major developments spring. Usually they prefer to operate by themselves at some distance from the other members of the team, using their imagination and often working in an unorthodox way. They tend to be introverted and react strongly to criticism and praise. Their ideas may often be radical and may lack practical constraint.</string>
+    <string name="ri_description">You are a RESOURCE INVESTIGATOR!\n\nResource Investigators are good communicators both inside and outside the organisation. They are natural negotiators, adept at exploring new opportunities and developing contacts. Although not necessarily a great source of original ideas, they are quick to pick up other people’s ideas and build on them. They are skilled at finding out what is available and what can be done, and usually get a warm welcome because of their outgoing nature.</string>
+    <string name="me_description">You are a MONITOR EVALUATOR!\n\nMonitor Evaluators are serious-minded, prudent individuals with a built-in immunity from being over-enthusiastic. They are slow deciders who prefer to think things over - usually with a high critical thinking ability. Good Monitor Evaluators have a capacity for shrewd judgements that take all factors into account and seldom give bad advice.</string>
+    <string name="imp_description">You are an IMPLEMENTER!\n\nImplementers are well organised, enjoy routine, and have a practical common-sense and self- discipline. They favour hard work and tackle problems in a systematic fashion. On a wider front they hold unswerving loyalty to the organisation and are less concerned with the pursuit of self- interest.</string>
+    <string name="tw_description">You are a TEAM WORKER!\n\nTeam Workers are the most supportive members of a team. They are mild, sociable and concerned about others with a great capacity for flexibility and adapting to different situations and people. Team Workers are perceptive and diplomatic. They are good listeners and are generally popular members of a group. They cope less well with pressure or situations involving the need for confrontation.</string>
+    <string name="cf_description">You are a COMPLETER-FINISHER!\n\nCompleters, or Completer-Finishers, have a great capacity for follow-through and attention to detail, and seldom start what they cannot finish. They are motivated by internal anxiety, although outwardly they may appear unruffled. Typically, they are introverts who don’t need much external stimulus or incentive. Completer-Finishers dislike carelessness and are intolerant of those with a casual disposition. Reluctant to delegate, they prefer to tackle all tasks themselves.</string>
+</resources>

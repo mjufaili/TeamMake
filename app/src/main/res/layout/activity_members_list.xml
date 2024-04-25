@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MemberContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_theme"
+    tools:context=".MembersList"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray"
+        android:gravity="center_vertical"
+        android:text="Class Members"
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/amber_theme"
+            android:gravity="center"
+            android:text="CSCI 4176 - Team 1"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/fragmentPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

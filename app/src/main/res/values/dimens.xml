@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="member_item_top_margin">8dp</dimen> <!-- adjust the 8dp value as needed -->
+    <!-- Assuming 16dp side margins to match your title, adjust as necessary -->
+    <dimen name="member_side_margin">16dp</dimen>
+    <!-- Adjust top margin as needed for space between items -->
+
+    <dimen name="homepage_item_width">350dp</dimen>
+</resources>

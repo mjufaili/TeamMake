@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Teammake"
+        tools:targetApi="31">
+        <activity
+            android:name=".TeamsList"
+            android:exported="false" />
+        <activity
+            android:name=".BelbinTest"
+            android:exported="false" />
+        <activity
+            android:name=".BelbinResults"
+            android:exported="false" />
+        <activity
+            android:name=".BelbinTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".CreateOrJoinClass"
+            android:exported="false" />
+        <activity
+            android:name=".CreateClass"
+            android:exported="false" />
+        <activity
+            android:name=".JoinClass"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <!-- Homepage has different theme because it doesn't need an AppBar-->
+        <activity
+            android:name=".Homepage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".GenerateTeams"
+            android:exported="false" />
+        <activity
+            android:name=".MembersList"
+            android:exported="false" />
+        <activity
+            android:name=".ClassCreatedConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".Landing"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Teammake">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

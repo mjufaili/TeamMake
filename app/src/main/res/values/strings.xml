@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Teammake</string>
+    <string name="warning">Click here to take the Belbin test and finish setting your account up!</string>
+    <string name="app_name_first_half">Team</string>
+    <string name="app_name_second_half">Make</string>
+    <string name="email_input">Email</string>
+    <string name="password_input">Password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="signup_link_text"><u>DON\'T HAVE AN ACCOUNT? SIGN UP</u></string>
+    <string name="join_code_instructions_text">Join class by entry code</string>
+    <string name="create_class_btn_text">Create a class</string>
+    <string name="ask_if_CO_text">Are you a class organizer?</string>
+    <string name="create_class_instructions_text">Please provide the following details</string>
+    <string name="input_class_name_text">Class name</string>
+    <string name="input_class_desc_text">Class description</string>
+    <string name="input_class_max_text">Max students</string>
+    <string name="input_class_password_text">Password</string>
+    <string name="submit_new_class_btn_text">Finish</string>
+    <string name="join_class_text">You\'re about to join</string>
+    <string name="join_class_default_class_name">CSCI 4176</string>
+    <string name="join_class_input_pass_label">Please enter the class password</string>
+    <string name="join_class_input_pass_hint">Password</string>
+    <string name="join_class_btn_text">Join</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="tutorial_description">To complete each section of the test, apportion 10 points between those sentences that apply to you: one of which you feel sums you up well while the other only applies some of the time. You may only grant points to up to 3 sentences.\n\nFor example, you may assign 7 points to the first choice, and 2 points to another choice, and 1 point to the last choice.</string>
+    <string name="tutorial_begin">Begin</string>
+    <string name="result">Results</string>
+    <string name="result_finish">Finish</string>
+    <string name="create_or_join_class">Create or Join Class</string>
+    <string name="signup">SIGNUP</string>
+    <string name="view_class">VIEW CLASS</string>
+    <string name="confirmation_class_creation">Your class has been created with the following entry code:</string>
+    <string name="return_home">RETURN HOME</string>
+
+    <string name="result_placeholder">You are a <b>Coordinator</b>!\n\n<b>Characteristics:</b>\nCalm, self-confident, and controlled.\n\nThe distinguishing feature of Coordinators is their ability to cause others to work to shared goals. Mature, trusting and confident, they delegate readily. While Coordinators are not necessarily the cleverest members of a team, they have a broad and worldly outlook and generally command respect.\n\n<b>Function:</b>\n<b>Strengths:</b>\n<b>Weaknesses:</b>\n<b>Secondary role:</b> Implementer</string>
+    <string name="join_code_hint">000000</string>
+    <string name="logout_text">Logout</string>
+</resources>
